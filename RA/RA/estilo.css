@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7f6;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1b365d;
+  color: #ffffff;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+#inicio {
+  border-left: 5px solid #006688;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; 
+}
+
+/* Selector Descendiente */
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+main {
+  width: 85%;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+section {
+  background-color: #ffffff;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05); 
+}
+
+
+nav a:hover {
+  color: #ff9900;
+  text-decoration: underline;
+}
+
+button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+
+.tabla-servicios {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 15px 0 25px 0;
+}
+
+.tabla-servicios th, 
+.tabla-servicios td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+}
+
+.tabla-servicios th {
+  background-color: #1b365d;
+  color: white;
+}
+
+.tabla-servicios tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.horario-destacado {
+  background-color: #eef4f8;
+  padding: 10px;
+  border-radius: 4px;
+  border-left: 4px solid #1b365d;
+}
+
+.mapa-contenedor {
+  margin-top: 20px;
+}
+
+#contador-caracteres {
+  display: block;
+  color: #666;
+  font-size: 0.85rem;
+  margin-top: 4px;
+}
+
+.form-actions button {
+  background-color: #1b365d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+footer {
+  background-color: #1b365d;
+  color: #ffffff;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 40px;
+}
